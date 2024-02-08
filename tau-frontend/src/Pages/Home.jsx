@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar } from "../Components/Navbar";
+import SimpleSlider from "../Components/Slider";
 
 export const Home = () => {
   return (
@@ -7,8 +8,10 @@ export const Home = () => {
       <header>
         <Navbar />
       </header>
-      <h1>Home</h1>
       <p>Tautswako Exquisite cocktails</p>
+      <div>
+        <SimpleSlider />
+      </div>
     </div>
   );
 };
