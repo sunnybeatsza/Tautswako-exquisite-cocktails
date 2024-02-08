@@ -1,0 +1,26 @@
+.navbar-container a {
+  display: inline-flex;
+  text-decoration: none;
+  justify-content: center;
+  color: black;
+}
+
+.navbar-container li {
+  list-style: none;
+  display: inline;
+  margin-right: 4rem;
+  font-size: 1.1rem;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1.5rem;
+}
+
+.navbar-logo {
+  font-size: x-large;
+  margin-left: 2rem;
+}
