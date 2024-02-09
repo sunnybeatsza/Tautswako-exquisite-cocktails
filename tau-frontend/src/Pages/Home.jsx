@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar } from "../Components/Navbar";
 import SimpleSlider from "../Components/Slider";
+import { Hero } from "../Components/Hero";
 
 export const Home = () => {
   return (
@@ -8,7 +9,10 @@ export const Home = () => {
       <header>
         <Navbar />
       </header>
-      <p>Tautswako Exquisite cocktails</p>
+
+      <div>
+        <Hero />
+      </div>
       <div>
         <SimpleSlider />
       </div>

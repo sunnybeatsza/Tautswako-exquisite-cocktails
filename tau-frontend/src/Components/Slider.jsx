@@ -21,31 +21,34 @@ export default function SimpleSlider() {
   };
 
   return (
-    <Slider {...settings} className="custom-slider">
-      <div>
-        <img src={Chris1} alt="Image 1" />
-        <p>Caption 1</p>
-      </div>
-      <div>
-        <img src={Chris2} alt="Image 2" />
-        <p>Caption 2</p>
-      </div>
-      <div>
-        <img src={Drinks3} alt="Image 3" />
-        <p>Caption 3</p>
-      </div>
-      <div>
-        <img src={Drinks4} alt="Image 4" />
-        <p>Caption 4</p>
-      </div>
-      <div>
-        <img src={Client1} alt="Image 5" />
-        <p>Caption 5</p>
-      </div>
-      <div>
-        <img src={Chris3} alt="Image 6" />
-        <p>Caption 6</p>
-      </div>
-    </Slider>
+    <>
+      <h1>Events</h1>
+      <Slider {...settings} className="custom-slider">
+        <div>
+          <img src={Chris1} alt="Image 1" />
+          <p>Caption 1</p>
+        </div>
+        <div>
+          <img src={Chris2} alt="Image 2" />
+          <p>Caption 2</p>
+        </div>
+        <div>
+          <img src={Drinks3} alt="Image 3" />
+          <p>Caption 3</p>
+        </div>
+        <div>
+          <img src={Drinks4} alt="Image 4" />
+          <p>Caption 4</p>
+        </div>
+        <div>
+          <img src={Client1} alt="Image 5" />
+          <p>Caption 5</p>
+        </div>
+        <div>
+          <img src={Chris3} alt="Image 6" />
+          <p>Caption 6</p>
+        </div>
+      </Slider>
+    </>
   );
 }
