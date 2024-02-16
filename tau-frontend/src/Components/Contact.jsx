@@ -6,10 +6,10 @@ export const Contact = () => {
       <div className="container col-xl-10 col-xxl-8 px-4 py-5">
         <div className="row align-items-center g-lg-5 py-5">
           <div className="col-lg-7 text-center text-lg-start">
-            <h1 className="display-4 fw-bold lh-1 text-body-emphasis mb-3">
+            <h1 className="display-4 fw-bold lh-1 text-light mb-3">
               Contact Us
             </h1>
-            <p className="col-lg-10 fs-4">
+            <p className="text-light fs-4">
               Below is an example form built entirely with Bootstrap’s form
               controls. Each required form group has a validation state that can
               be triggered by attempting to submit the form without completing
@@ -17,7 +17,7 @@ export const Contact = () => {
             </p>
           </div>
           <div className="col-md-10 mx-auto col-lg-5">
-            <form className="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+            <form className="p-4 p-md-5 border rounded-3 bg-black">
               <div className="form-floating mb-3">
                 <input
                   type="email"
@@ -36,7 +36,7 @@ export const Contact = () => {
                 />
                 <label htmlFor="floatingPassword">Password</label>
               </div>
-              <div className="checkbox mb-3">
+              <div className="checkbox mb-3 text-light">
                 <label>
                   <input type="checkbox" defaultValue="remember-me" /> Remember
                   me
@@ -46,7 +46,7 @@ export const Contact = () => {
                 Sign up
               </button>
               <hr className="my-4" />
-              <small className="text-body-secondary">
+              <small className="text-light">
                 By clicking Sign up, you agree to the terms of use.
               </small>
             </form>

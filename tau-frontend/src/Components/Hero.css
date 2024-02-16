@@ -27,3 +27,13 @@
   border: 2px solid white;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 768px) {
+  .hero-body {
+    width: 90%; /* Adjust as needed for smaller screens */
+  }
+
+  .hero-heading {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+}

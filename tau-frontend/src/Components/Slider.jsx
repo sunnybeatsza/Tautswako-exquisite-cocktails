@@ -23,14 +23,17 @@ export default function SimpleSlider() {
   return (
     <>
       <div>
-        <div className="px-4 py-5 my-5 text-center">
-          <h1 className="display-5 fw-bold text-body-emphasis">Events</h1>
+        <div className="px-4 py-5 my-5 text-center" id="events-background">
+          <h1 className="display-5 fw-bold text-light">Events</h1>
           <div className="col-lg-6 mx-auto">
-            <p className="lead mb-4">
-              Quickly design and customize responsive mobile-first sites with
-              Bootstrap, the world’s most popular front-end open source toolkit,
-              featuring Sass variables and mixins, responsive grid system,
-              extensive prebuilt components, and powerful JavaScript plugins.
+            <p className="text-light mb-4">
+              Welcome to our thrilling world of events! Immerse yourself in
+              unforgettable moments at our carefully planned gatherings. From
+              elegant scenes to exciting moments, refreshing experiences, and
+              charming settings, each event is a unique and special occasion.
+              Explore our gallery, where each image tells a story of joy and
+              celebration. Join us for the next memorable event – click the
+              buttons below. Let's create lasting memories together!
             </p>
             <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
               <button
@@ -52,27 +55,27 @@ export default function SimpleSlider() {
       <Slider {...settings} className="custom-slider">
         <div>
           <img src={Chris1} alt="Image 1" />
-          <p>Caption 1</p>
+          <p className="text-light">Serving smiles</p>
         </div>
         <div>
           <img src={Chris2} alt="Image 2" />
-          <p>Caption 2</p>
+          <p className="text-light">Amazing service</p>
         </div>
         <div>
           <img src={Drinks3} alt="Image 3" />
-          <p>Caption 3</p>
+          <p className="text-light">Premium Drinks</p>
         </div>
         <div>
           <img src={Drinks4} alt="Image 4" />
-          <p>Caption 4</p>
+          <p className="text-light">Lovely cocktails</p>
         </div>
         <div>
           <img src={Client1} alt="Image 5" />
-          <p>Caption 5</p>
+          <p className="text-light">Happy clients</p>
         </div>
         <div>
           <img src={Chris3} alt="Image 6" />
-          <p>Caption 6</p>
+          <p className="text-light">Serving flavour</p>
         </div>
       </Slider>
     </>
