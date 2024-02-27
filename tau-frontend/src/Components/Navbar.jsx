@@ -17,20 +17,19 @@ export const Navbar = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/About-us">About Us</Link>
+          <a href="#About-us">About Us</a>
         </li>
         <li>
-          <Link to="/Services">Services</Link>
+          <a href="#Services">Services</a>
         </li>
-
         <li>
-          <Link to="/Events">Events</Link>
+          <a href="#Events">Events</a>
         </li>
         <li>
           <Link to="/Quote">Quote</Link>
         </li>
         <li>
-          <Link to="/Contact">Contact</Link>
+          <a href="#Contact">Contact us</a>
         </li>
       </ul>
       <button
@@ -48,19 +47,19 @@ export const Navbar = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/About-us">About Us</Link>
+          <a href="#About-us">About Us</a>
         </li>
         <li>
-          <Link to="/Services">Services</Link>
+          <a href="#Services">Services</a>
         </li>
         <li>
-          <Link to="/Events">Events</Link>
+          <a href="#Events">Events</a>
         </li>
         <li>
           <Link to="/Quote">Quote</Link>
         </li>
         <li>
-          <Link to="/Contact">Contact</Link>
+          <a href="#Contact">Contact us</a>
         </li>
       </ul>
     </div>

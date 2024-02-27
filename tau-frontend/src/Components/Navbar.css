@@ -8,7 +8,7 @@
 .navbar-container li {
   list-style: none;
   display: inline;
-  margin-right: 4rem;
+  margin-right: 2.5rem;
   font-size: 1.1rem;
 }
 
@@ -18,6 +18,11 @@
   align-items: center;
   flex-wrap: wrap;
   margin: 1.5rem;
+  height: 3rem;
+}
+
+.navbar-container ul {
+  margin-top: 1rem;
 }
 
 .navbar-logo {

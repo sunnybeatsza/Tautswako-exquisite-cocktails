@@ -22,7 +22,7 @@ export default function SimpleSlider() {
 
   return (
     <>
-      <div>
+      <div id="Events">
         <div className="px-4 py-5 my-5 text-center" id="events-background">
           <h1 className="display-5 fw-bold text-light">Events</h1>
           <div className="col-lg-6 mx-auto">
