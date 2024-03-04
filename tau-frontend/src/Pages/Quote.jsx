@@ -1,14 +1,23 @@
 import React from "react";
 import "./Quote.css";
 import { Navbar } from "../Components/Navbar";
+import { useNavigate } from "react-router-dom";
 
 export const Quote = () => {
+  const navigate = useNavigate();
+
+  const GoBack = () => {
+    navigate("/");
+  };
   return (
     <div>
       <Navbar />
       <div className="quote-outer-container">
         <div className="quote-container">
-          <h1 className="text-white mb-5">Get a Quote!</h1>
+          <h1 className="text-white mb-3">Get a Quote!</h1>
+          <button className="btn btn-primary text-light mb-3" onClick={GoBack}>
+            Go Back
+          </button>
           <form action="">
             <h3>Guests</h3>
             <div className="quote-container-top">
