@@ -1,0 +1,25 @@
+.checkout-outer-container {
+  border: 2px solid white;
+  height: auto; /* Change height to auto to allow it to adjust based on content */
+  margin: 2rem;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 1fr 2fr; /* Change the first row to adjust based on content */
+}
+
+.checkout-top-container {
+  border: 2px solid cyan;
+  margin: 1rem;
+  height: 10rem;
+  text-align: left;
+  font-size: 1.5rem;
+  color: aqua;
+}
+
+.checkout-bottom-container {
+  border: 2px solid orchid;
+  margin: 1rem;
+  overflow-y: auto; /* Add overflow-y to enable vertical scrollbar if content exceeds */
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
